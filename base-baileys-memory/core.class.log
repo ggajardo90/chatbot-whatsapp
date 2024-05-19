@@ -1,0 +1,212 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB02F0419FFAB498CA444',
+    participant: undefined
+  },
+  messageTimestamp: 1716086943,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: 'menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '56926173962'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5245edf4-40d3-425e-97b0-cf682d89e50d',
+  keyword: 'key_4aa35a30-a5a1-481a-b3e7-2b5ea5026f06',
+  answer: 'Este es el menu, escogi una opcion 1,2,3,4,5, o 0',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'af22f27a812a94f0120548380e94a984'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06050BED86E7CDF7416',
+    participant: undefined
+  },
+  messageTimestamp: 1716086955,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '56926173962'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0C9A91E2E643B369890',
+    participant: undefined
+  },
+  messageTimestamp: 1716086973,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '0',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '56926173962'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_83877cc6-af34-46f9-b10a-cba415647321',
+  keyword: 'key_0738d29a-263d-4344-b4e9-1d9eea2cc78c',
+  answer: 'este es el flujo Welcom',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 100,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '685c23d53802aeea5e233c085e4f7ece'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E66626D2E9D595E70A',
+    participant: undefined
+  },
+  messageTimestamp: 1716086978,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: 'menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '56926173962'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5245edf4-40d3-425e-97b0-cf682d89e50d',
+  keyword: 'key_4aa35a30-a5a1-481a-b3e7-2b5ea5026f06',
+  answer: 'Este es el menu, escogi una opcion 1,2,3,4,5, o 0',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'af22f27a812a94f0120548380e94a984'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB09BF61B12D791BADA15',
+    participant: undefined
+  },
+  messageTimestamp: 1716086981,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '0',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '0',
+  from: '56926173962'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0CD8CD5FDEAF524BA27',
+    participant: undefined
+  },
+  messageTimestamp: 1716086992,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: 'menu',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'menu',
+  from: '56926173962'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_5245edf4-40d3-425e-97b0-cf682d89e50d',
+  keyword: 'key_4aa35a30-a5a1-481a-b3e7-2b5ea5026f06',
+  answer: 'Este es el menu, escogi una opcion 1,2,3,4,5, o 0',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'af22f27a812a94f0120548380e94a984'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0E9295148E7D1A2FB82',
+    participant: undefined
+  },
+  messageTimestamp: 1716086995,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '9',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '9',
+  from: '56926173962'
+}
