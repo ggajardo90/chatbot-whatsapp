@@ -2,26 +2,26 @@
   key: {
     remoteJid: '56926173962@s.whatsapp.net',
     fromMe: false,
-    id: '3EB02F0419FFAB498CA444',
+    id: '3EB0C1A1913A3C40A0BB1F',
     participant: undefined
   },
-  messageTimestamp: 1716086943,
+  messageTimestamp: 1716169446,
   pushName: '😎',
   broadcast: false,
   message: Message {
-    conversation: 'menu',
+    conversation: 'hola',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'menu',
+  body: 'hola',
   from: '56926173962'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5245edf4-40d3-425e-97b0-cf682d89e50d',
-  keyword: 'key_4aa35a30-a5a1-481a-b3e7-2b5ea5026f06',
-  answer: 'Este es el menu, escogi una opcion 1,2,3,4,5, o 0',
+  ref: 'ans_59dafa01-67a8-49ea-92d1-dc8801ca400e',
+  keyword: 'key_b5e743cb-1d84-451f-a9d8-df57f6cdc97a',
+  answer: 'Bienvenido a tu asistente virtual 🤖 XR3 insgresa tu rut',
   options: {
     media: null,
     buttons: [],
@@ -34,36 +34,114 @@
     keyword: {},
     callback: true
   },
-  refSerialize: 'af22f27a812a94f0120548380e94a984'
+  refSerialize: '07eca909f0d5a4161e94d97a046259b6'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '56926173962@s.whatsapp.net',
     fromMe: false,
-    id: '3EB06050BED86E7CDF7416',
+    id: '3EB0E7DEFE60E87A3023A0',
     participant: undefined
   },
-  messageTimestamp: 1716086955,
+  messageTimestamp: 1716169452,
   pushName: '😎',
   broadcast: false,
   message: Message {
-    conversation: '2',
+    conversation: '17684838-3',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '2',
+  body: '17684838-3',
   from: '56926173962'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '56926173962@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0C9A91E2E643B369890',
+    id: '3EB0F2B3631CB2B0502C15',
     participant: undefined
   },
-  messageTimestamp: 1716086973,
+  messageTimestamp: 1716169454,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '56926173962'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0AA1822C87F8BC4BDE6',
+    participant: undefined
+  },
+  messageTimestamp: 1716169458,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '1-0002902',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1-0002902',
+  from: '56926173962'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D2A0E95FD97E998FB2',
+    participant: undefined
+  },
+  messageTimestamp: 1716169471,
+  pushName: '😎',
+  broadcast: false,
+  message: Message {
+    conversation: '1',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '1',
+  from: '56926173962'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_59dafa01-67a8-49ea-92d1-dc8801ca400e',
+  keyword: 'key_b5e743cb-1d84-451f-a9d8-df57f6cdc97a',
+  answer: 'Bienvenido a tu asistente virtual 🤖 XR3 insgresa tu rut',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '07eca909f0d5a4161e94d97a046259b6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56926173962@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01EF7A95F7E666FB415',
+    participant: undefined
+  },
+  messageTimestamp: 1716169512,
   pushName: '😎',
   broadcast: false,
   message: Message {
@@ -76,137 +154,23 @@
   body: '0',
   from: '56926173962'
 }
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_83877cc6-af34-46f9-b10a-cba415647321',
-  keyword: 'key_0738d29a-263d-4344-b4e9-1d9eea2cc78c',
-  answer: 'este es el flujo Welcom',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 100,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: '685c23d53802aeea5e233c085e4f7ece'
-}
 [handleMsg]:  {
   key: {
     remoteJid: '56926173962@s.whatsapp.net',
     fromMe: false,
-    id: '3EB0E66626D2E9D595E70A',
+    id: '3EB0229D58663B3766C367',
     participant: undefined
   },
-  messageTimestamp: 1716086978,
+  messageTimestamp: 1716169521,
   pushName: '😎',
   broadcast: false,
   message: Message {
-    conversation: 'menu',
+    conversation: '1',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'menu',
-  from: '56926173962'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5245edf4-40d3-425e-97b0-cf682d89e50d',
-  keyword: 'key_4aa35a30-a5a1-481a-b3e7-2b5ea5026f06',
-  answer: 'Este es el menu, escogi una opcion 1,2,3,4,5, o 0',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'af22f27a812a94f0120548380e94a984'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '56926173962@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB09BF61B12D791BADA15',
-    participant: undefined
-  },
-  messageTimestamp: 1716086981,
-  pushName: '😎',
-  broadcast: false,
-  message: Message {
-    conversation: '0',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '0',
-  from: '56926173962'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '56926173962@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0CD8CD5FDEAF524BA27',
-    participant: undefined
-  },
-  messageTimestamp: 1716086992,
-  pushName: '😎',
-  broadcast: false,
-  message: Message {
-    conversation: 'menu',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'menu',
-  from: '56926173962'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5245edf4-40d3-425e-97b0-cf682d89e50d',
-  keyword: 'key_4aa35a30-a5a1-481a-b3e7-2b5ea5026f06',
-  answer: 'Este es el menu, escogi una opcion 1,2,3,4,5, o 0',
-  options: {
-    media: null,
-    buttons: [],
-    capture: true,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: true
-  },
-  refSerialize: 'af22f27a812a94f0120548380e94a984'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '56926173962@s.whatsapp.net',
-    fromMe: false,
-    id: '3EB0E9295148E7D1A2FB82',
-    participant: undefined
-  },
-  messageTimestamp: 1716086995,
-  pushName: '😎',
-  broadcast: false,
-  message: Message {
-    conversation: '9',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '9',
+  body: '1',
   from: '56926173962'
 }

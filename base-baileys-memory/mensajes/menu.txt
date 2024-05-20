@@ -1,0 +1,7 @@
+Elegi algunas de estas opciones:
+
+Opcion 1 - VTR
+Opcion 2 - CLARO
+Opcion 3 - DIRECTV
+
+Opcion 0 - Salir
