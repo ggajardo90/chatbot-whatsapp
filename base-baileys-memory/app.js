@@ -11,15 +11,17 @@ const menuPath = path.join(__dirname, "mensajes", "menu.txt")
 const menu = fs.readFileSync(menuPath, "utf8")
 
 const flowMenu = addKeyword(EVENTS.ACTION)
-    .addAnswer('ingresa el numero de orden VTR', {capture:true}, async (ctx, ctxFn) =>{
-        if (ctx.body  == ctx.body) {
-            await ctxFn.flowDynamic ("favor ingresar numeros de series instalados")
-        }
-    } )
+        .addAnswer('ingresa el numero de orden VTR', {capture:true}, async (ctx, ctxFn) =>{
+            if (ctx.body  == ctx.body) {
+                await ctxFn.flowDynamic ("favor ingresar numeros de series instalados")
+            }
+        } )
 
 
 const flowReservas = addKeyword(EVENTS.ACTION)
     .addAnswer('ingresa el numero de orden CLARO')
+
+    
 
 
 const flowConsultas = addKeyword(EVENTS.ACTION)
@@ -31,10 +33,16 @@ const flowWelcome = addKeyword(EVENTS.WELCOME)
     .addAnswer("Bienvenido a tu asistente virtual 🤖 XR3 insgresa tu rut", { capture: true },
         async (ctx, ctxFn) => {
 
-            if (ctx.body == ctx.body) {
+            const rut = ctx.body;
+            const rutValido = verificarRut(rut);
+
+            if (rutValido) {
+                await ctxFn.flowDynamic("¡Gracias! Tu RUT es válido. porfavor selecciona una opcion");
                return ctxFn.gotoFlow(menuFlow)
+            }else{
+                await ctxFn.flowDynamic("El RUT ingresado no es válido. Por favor");
             }
-          console.log(ctx.body);
+          
         })
     
 
@@ -80,7 +88,48 @@ const menuFlow = addKeyword("Menu").addAnswer(
 )
 
 
+function verificarRut(rut) {
+    if (rut.toString().trim() != '' && rut.toString().indexOf('-') > 0) {
+        var caracteres = new Array();
+        var serie = new Array(2, 3, 4, 5, 6, 7);
+        var dig = rut.toString().substr(rut.toString().length - 1, 1);
+        rut = rut.toString().substr(0, rut.toString().length - 2);
 
+        for (var i = 0; i < rut.length; i++) {
+            caracteres[i] = parseInt(rut.charAt((rut.length - (i + 1))));
+        }
+
+        var sumatoria = 0;
+        var k = 0;
+        var resto = 0;
+
+        for (var j = 0; j < caracteres.length; j++) {
+            if (k == 6) {
+                k = 0;
+            }
+            sumatoria += parseInt(caracteres[j]) * parseInt(serie[k]);
+            k++;
+        }
+
+        resto = sumatoria % 11;
+        dv = 11 - resto;
+
+        if (dv == 10) {
+            dv = "K";
+        }
+        else if (dv == 11) {
+            dv = 0;
+        }
+
+        if (dv.toString().trim().toUpperCase() == dig.toString().trim().toUpperCase())
+            return true;
+        else
+            return false;
+    }
+    else {
+        return false;
+    }
+}
 
 const main = async () => {
     const adapterDB = new MockAdapter()
